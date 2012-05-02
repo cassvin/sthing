@@ -1,8 +1,8 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-print 'System color:'
 SCHEMA = '\x1b[48;5;%dm '
+print 'System color:'
 
 for color in range(8):
 	print SCHEMA % color,
